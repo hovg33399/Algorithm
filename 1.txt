@@ -1,0 +1,22 @@
+a = int(input())
+b = input()
+input은 문자열!
+a는 문자열을 정수형태로
+b는 
+a1 = a * int(b[2])
+a2 = a * int(b[1])
+a3 = a * int(b[0])
+a4 = a * int(b)
+여기서
+b = int(input())
+하지 않는 이유?
+
+
+int(input())을 하면 b는 
+정수형이 된다
+b[1]을 했을 때
+TypeError: 'int' object is not callable
+이 된다
+문자열만 [1],,,가능!
+슬래시(\)를 쓸때는 \\ 이렇게 두개를 연속해야함
+print(f"{a} {b}") =백틱
