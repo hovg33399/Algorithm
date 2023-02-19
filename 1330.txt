@@ -1,0 +1,15 @@
+a, b = input().split()
+A = int(a)
+B = int(b)
+
+if A > B:
+  print('>')
+elif A<B:
+  print('<')
+else:
+  print('==')
+
+//여기서 나는 처음에 a, b = int(input().split())
+이렇게 했는데 틀렸다
+이유?
+A, B = map(int, input().split())이렇해 맵함수를 이용해야한다!
